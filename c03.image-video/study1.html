@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지태그</title>
+</head>
+<body>
+    <h1>이미지 태그</h1>
+    <img src="./img/cat.jpg" alt="고양이">
+    <p>이미지 태그는 문맥적인 뜻이 없다 글자와 같은 콘텐츠이다</p>
+    <p>
+        이<img src="./img/cat.jpg" alt="고양이"> 고양이는 집사를 삥 뜯고있다
+    </p>
+
+    <p style="font-size:100px">
+        이 <img style="height:100px"" src="./img/cat.jpg" alt="고양이">는 집사를 삥 뜯고있다
+    </p>
+
+    <h2>반응형 이미지 설정</h2>
+    <picture>
+        <source media="(max-width:768px)"
+        srcset="./img/alien-640.jpg">
+        <source media="(max-width:1200px)"
+        srcset="./img/alien-1024.jpg">
+        <source media="(min-width:1201px)"
+        srcset="./img/alien-1600.jpg">
+        <img src="./img/alien-640.jpg" alt="외계인">
+    </picture>
+
+
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{margin:0;padding:0;}
+.a{
+    border: 1px solid #000;
+    height: 1500px;
+    background-color: pink;
+    background-image: url("../img/dog.jpg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 100px) 200px;
+    background-size: auto 50%;
+}
+.b{
+    border: 1px solid #000;
+    height: 1500px;
+    background:aquamarine url("../img/dog.jpg") no-repeat calc(100% - 100px) 200px / auto 50%
+}
+.c{
+    border: 1px solid red;
+    height: 1000px;
+    background: violet url("../img/dog.jpg") no-repeat 50% 50% / contain;
+    background-blend-mode: multiply;
+}
+.d{
+    border: 1px solid red;
+    height: 1000px;
+    background:
+    url(../img/dog.jpg) no-repeat 0 0 / 400px auto,
+    url(../img/frog.jpg) no-repeat 50% 0 / 400px auto,
+    url(../img/Jellyfish.jpg) no-repeat 100% 0 / 400px auto;
+}
+.e{
+    border: 1px solid #000;
+    height: 1000px;
+    background:
+    url(../img/frog.jpg) no-repeat 50% 50% / auto 800px,
+    linear-gradient(30deg,rgb(255, 182, 193) 40%,rgb(255, 217, 0) 60%,rgb(153, 205, 50) 80%);
+}
+.e .box{
+    width: 400px;
+    height: 800px;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin:0 auto;
+    margin-top:100px;
+    backdrop-filter: blur(5px);
+}

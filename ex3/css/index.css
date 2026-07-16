@@ -1,0 +1,89 @@
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
+    gap: 20px;
+}
+.point-type{font-family: "Aboreto",system-ui;}
+
+main{
+    background: url(../img/BACKGROUND.png) no-repeat 50% 750px;
+}
+.banner{
+    background: url('../img/banner.png') no-repeat 50% 50% / cover;
+    height: 599px;
+    border-radius: 0 0 150px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.banner h1{
+    font-size: 2.5rem;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 5rem;
+}
+.div1{
+    background: url('../img/Vector\ 1.svg') no-repeat 50% 0;
+    padding-top: 10rem ;
+    display: grid;
+    gap: 2rem;
+    text-align: center;
+}
+.div1 h2{
+    display: grid;
+    gap: 0.5rem;
+    font-size: 7.5rem;
+    line-height: 90%;
+    text-transform: uppercase;
+}
+.div1 p{
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.div1 p span{
+    color:rgb(119, 0, 0);
+}
+.div2{
+    display: grid;
+    gap: 2.5rem;
+}
+.cafe-figure{
+    display: flex;
+    gap: 1rem;
+}
+.cafe-figure figure{
+    flex: 1;
+    line-height: 0;
+}
+.cafe-figure figure img{
+    width: 100%;
+    aspect-ratio: 790/434;
+    object-fit: cover;
+    border-radius: 20px;
+} 
+.div2 h3{
+    font-size: 2rem;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.div2 h3 span{
+    color:rgb(119, 0, 0);
+}
+.div3{
+    display: grid;
+    gap: 1rem;
+}
+.description{
+    line-height: 140%;
+    display: grid;
+    gap: 0.5rem;
+}
+.description span{
+    font-weight: 700;
+}

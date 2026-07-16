@@ -1,0 +1,49 @@
+html{
+    /* font-size:20px; */
+    font-size:16px;
+    font-family: "페이퍼로지"," 어그로체","Inter",sans-serif;
+    font-weight: 400;
+}
+.a{
+    font-size:2rem; 
+}
+.b{
+    font-size:16px;
+}
+.b p{
+    font-size:1em;
+    /* font-weight:600; */
+    line-height: 150%;
+    font-style: normal;
+}
+address{
+    font-style: normal;
+}
+.c{
+    letter-spacing: -1px;
+    word-spacing: 20px;     
+}
+.d{
+    /* white-space: nowrap; */
+    white-space: pre-wrap;
+}
+.e{
+    text-indent: 50px;
+    text-transform: capitalize;
+    word-break: keep-all;
+}
+.g{
+    text-align: justify;
+}
+.g span{text-decoration: line-through;}
+.h{
+    font-family: "페이퍼로지";
+    font-weight: 300;
+}
+.i{
+    font-family: "어그로체";
+    font-weight: 500;
+}
+.j{
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
