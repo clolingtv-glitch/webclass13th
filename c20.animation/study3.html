@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Marquee</title>
+    <link rel="stylesheet" href="./css/study3.css">
+</head>
+<body>
+    <main class="marquee-demo">
+        <p class="eyebrow">CSS ANIMATION</p>
+        <h1>INFINITE<br>MARQUEE</h1>
+        <p class="description">끊김 없이 흐르는 가로형 텍스트 애니메이션</p>
+
+        <!-- 동일한 목록을 두 번 배치하면 한 목록의 너비만큼 이동했을 때 자연스럽게 이어집니다. -->
+        <section class="marquee" aria-label="무한 마키 애니메이션">
+            <div class="marquee__track">
+                <div class="marquee__group">
+                    <span>CREATE</span><i>✦</i><span>MOVE</span><i>✦</i><span>REPEAT</span><i>✦</i>
+                </div>
+                <div class="marquee__group" aria-hidden="true">
+                    <span>CREATE</span><i>✦</i><span>MOVE</span><i>✦</i><span>REPEAT</span><i>✦</i>
+                </div>
+            </div>
+        </section>
+
+        <p class="hint">HOVER TO PAUSE</p>
+    </main>
+</body>
+</html>
